@@ -1,0 +1,164 @@
+.container1 {
+	width: 100%;
+	display: flex;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.contenido {
+	font-size: large;
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+	/* Alinea el contenido al centro */
+	max-width: 550px;
+	width: 100%;
+	/* Para que el ancho sea responsivo */
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+	.container1 {
+		flex-direction: column;
+		align-items: center
+			/* Cambia a un diseño de columna en dispositivos móviles */
+	}
+
+	.contenido {
+		width: auto;
+		font-size: large;
+		margin: 10px;
+		padding: 10px;
+		text-align: left;
+	}
+
+	.contenedor-horizontal {
+		display: flex;
+		margin: 0 auto;
+		max-width: 70%;
+		flex-direction: column;
+		align-content: center;
+	}
+
+
+}
+
+.card-texto-index {
+	width: 100%;
+	font-size: 19px;
+	padding: 25px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	cursor: default;
+}
+
+.cardBody {
+	display: flex;
+	justify-content: center;
+	/* Centra horizontalmente */
+	align-items: center;
+	/* Centra verticalmente */
+}
+
+
+.texto {
+	margin: 0 10px;
+}
+
+.imagen {
+	width: 30%;
+	justify-content: center;
+	height: auto;
+}
+
+/* Archivo CSS modular */
+.tituloGrande {
+	margin-bottom: 60px;
+	font-family: cursive;
+	font-size: 50px;
+	/* Ajusta el tamaño del título según tus preferencias */
+	margin-bottom: 16px;
+	text-align: center;
+	/* Centra el texto horizontalmente */
+	display: block;
+	/* Ajusta el elemento a un bloque para centrar el texto */
+	/* Espacio entre el título y el párrafo */
+}
+
+
+
+p {
+	max-width: 100%;
+	/* Evita que el párrafo se desborde si el ancho del contenido es menor que 550px */
+}
+
+.tituloCardExtension {
+	max-width: 40rem;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	text-align: center;
+	padding: 9px;
+	color: rgba(255, 255, 255, 0.8);
+	background-color: #333;
+}
+
+.depth-effect {
+	width: auto;
+	padding: 1px;
+	background-color: #a8c0cf;
+	/* Color de fondo del div */
+	border-radius: 10px;
+	/* Borde redondeado */
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/* Sombra de caja */
+	margin: 20px;
+	/* Márgenes para separar el div de otros elementos */
+	position: relative;
+	/* Asegura que los bordes se superpongan con la sombra */
+}
+
+.depth-effect::before {
+	content: '';
+	/* Crea un pseudo-elemento */
+	position: absolute;
+	/* Posición absoluta relativa al div principal */
+	top: 10px;
+	/* Ajusta la posición superior */
+	left: 10px;
+	/* Ajusta la posición izquierda */
+	right: 10px;
+	/* Ajusta la posición derecha */
+	bottom: 10px;
+	/* Ajusta la posición inferior */
+	background-color: rgba(255, 255, 255, 0.2);
+	/* Color blanco suave con opacidad */
+	border-radius: 10px;
+	/* Borde redondeado */
+	pointer-events: none;
+	/* Evita que el pseudo-elemento interfiera con eventos de ratón */
+	z-index: -1;
+	/* Coloca el pseudo-elemento detrás del div principal */
+}
+
+.contenedor-horizontal {
+	display: flex;
+	justify-content: center;
+	margin: 75px auto;
+	max-width: 70%;
+}
+
+.imagen-con-texto {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+	/* Ajusta el espaciado interior según tus preferencias */
+}
+
+.imagen-con-texto img {
+	max-width: 100%;
+	height: auto;
+	/* Ajusta los estilos de la imagen según tus necesidades */
+}
