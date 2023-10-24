@@ -1,0 +1,48 @@
+.container1 {
+
+    width: 100%;
+    display: flex;
+    height: auto;
+
+}
+
+.card-texto-index {
+    width: 100%;
+    font-size: 19px;
+    padding: 25px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    cursor: default;
+}
+
+.card-body {
+    padding: 5px;
+    border-color: black;
+    margin-bottom: 15px;
+}
+
+.titulo-card-extension {
+    max-width: 40rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 9px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #333;
+}
+
+.texto {
+    margin: 0 10px;
+}
+
+.imagen {
+    width: 30%;
+    justify-content: center;
+    height: auto;
+}
+
+/* Archivo CSS modular */
+.titulo-grande {
+    font-weight: bold;
+    font-size: 24px;
+}

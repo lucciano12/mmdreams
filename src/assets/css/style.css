@@ -1,0 +1,198 @@
+.body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.container1 {
+	flex-grow: 1;
+}
+
+.footer {
+	background-color: #333;
+	color: #d75151;
+	text-align: center;
+	padding: 10px;
+	margin-top: auto;
+	/* Cambia "margin-top" a "margin-top: auto" */
+}
+
+.container1 {
+	width: 100%;
+	display: flex;
+	height: auto;
+}
+
+.card .btn {
+	max-width: 100%;
+	padding: 5px;
+	margin: 10px;
+}
+
+.card .contenido-card a {
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+
+.card-body {
+	padding: 5px;
+	border-color: black;
+	margin-bottom: 15px;
+}
+
+.img {
+	margin-top: 2px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+	.btn-wsp {
+		width: 63px;
+		height: 63px;
+		line-height: 60px;
+	}
+}
+
+@media only screen and (min-width:120px) and (max-width:320px) {
+	.container-ExtensionDePestañas {
+		flex-wrap: wrap;
+
+	}
+
+	.contenedorFondo {
+		max-width: 367px;
+		flex-wrap: wrap;
+	}
+
+	.container-LashLifthing {
+		flex-wrap: wrap;
+	}
+
+	.container-cejas {
+		flex-wrap: wrap;
+	}
+
+	.card {
+		width: 100%;
+		margin: 20px;
+	}
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+	.container-ExtensionDePestañas {
+		flex-wrap: wrap;
+		max-width: 367px;
+	}
+
+	.contenedorFondo {
+		max-width: 367px;
+		flex-wrap: wrap;
+	}
+
+	#extensiondePestañas {
+		max-width: 367px;
+		flex-wrap: wrap;
+	}
+
+	.container-LashLifthing {
+		flex-wrap: wrap;
+	}
+
+	.container-cejas {
+		flex-wrap: wrap;
+	}
+
+	.card {
+		width: 100%;
+		margin: 20px;
+	}
+}
+
+.boody1 {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+}
+
+.titulo-card-estetica {
+	text-align: center;
+	padding: 10px;
+	color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(0, 0, 0, 0.493);
+}
+
+.card-texto-index {
+	width: 100%;
+	font-size: 19px;
+	padding: 25px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	cursor: default;
+}
+
+.titulo-card-extension {
+	max-width: 40rem;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	text-align: center;
+	padding: 9px;
+	color: rgba(255, 255, 255, 0.8);
+	background-color: #333;
+}
+
+.contenedor {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 30px;
+}
+
+.imagen {
+	width: 30%;
+	justify-content: center;
+	height: auto;
+}
+
+.carousel-middle-text {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.texto {
+	margin: 0 10px;
+}
+
+.carousel-container {
+	height: calc(100vh - 80px);
+	/* 80px es la altura de tu Navbar */
+}
+
+.appBarTransparent {
+	background: transparent;
+	color: #fff;
+	/* Texto en blanco en el fondo transparente */
+	transition: background 0.3s;
+}
+
+/* Estilo para la barra de navegación con fondo blanco */
+.appBarSolid {
+	background: white;
+	color: #000;
+	/* Texto en negro en el fondo blanco */
+	transition: background 0.3s;
+}
