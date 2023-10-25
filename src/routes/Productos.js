@@ -11,7 +11,7 @@ export const Productos = () => {
         <div className="boody1">
             <Navbar />
             <MyCarousel />
-            <h3>Estas en Pedidos</h3>
+            <h2>Estas en Productos</h2>
         </div>
 
     );

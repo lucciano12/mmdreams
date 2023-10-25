@@ -6,7 +6,7 @@ import monita from '../assets/images/monita.png';
 import "../assets/css/comocreamos.css"
 
 
-const Comocreamos = () => {
+const bodyhome = () => {
     return (
         <div>
             <Divider style={{ height: '2px', marginTop: '60px', marginBottom: '30px' }} />
@@ -46,4 +46,4 @@ const Comocreamos = () => {
     );
 };
 
-export default Comocreamos;
+export default bodyhome;
