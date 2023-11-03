@@ -26,13 +26,8 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-
-
-
-
-export default function Producto() {
+export default function RecipeReviewCard() {
   const [expanded, setExpanded] = React.useState(false);
-  const classes = useStyles();
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -41,13 +36,15 @@ export default function Producto() {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
+        avatar={
+          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+            R
+          </Avatar>
+        }
         action={
-          <Typography 
-          className={classes.action}
-          variant='h5'
-          color='textSecondary'
-          >
-          </Typography>
+          <IconButton aria-label="settings">
+            <MoreVertIcon />
+          </IconButton>
         }
         title="Shrimp and Chorizo Paella"
         subheader="September 14, 2016"
