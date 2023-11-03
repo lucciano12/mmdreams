@@ -26,8 +26,13 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
+
+
+
+
 export default function Producto() {
   const [expanded, setExpanded] = React.useState(false);
+  const classes = useStyles();
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
